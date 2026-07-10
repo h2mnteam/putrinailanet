@@ -20,3 +20,93 @@ body{
     line-height:1.6;
 
 }
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+}
+
+.navbar{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:14px 20px;
+
+    background:white;
+
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+
+}
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+}
+
+.brand img{
+
+    width:45px;
+
+    height:45px;
+
+}
+
+.brand span{
+
+    font-size:1.3rem;
+
+    font-weight:bold;
+
+    color:#0f4c81;
+
+}
+
+.menu{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#0f4c81;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:#1ecb72;
+
+}
