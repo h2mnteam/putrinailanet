@@ -82,8 +82,69 @@
         z-index: 99999 !important; 
         text-decoration: none;
     }
-</style>
+    /* ===========================
+   NAVIGATION
+=========================== */
 
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:999;
+    background:#ffffff;
+    padding:12px 18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.logo{
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#0f4c81;
+}
+
+.nav-menu{
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+}
+
+.nav-menu a{
+    text-decoration:none;
+    color:#0f4c81;
+    font-weight:600;
+    padding:8px 14px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.nav-menu a:hover{
+    background:#1e88e5;
+    color:white;
+}
+</style>
+<div class="navbar">
+
+    <div class="logo">
+        🌐 PutriNaila.Net
+    </div>
+
+    <div class="nav-menu">
+
+        <a href="index.html">Beranda</a>
+
+        <a href="bantuan.html">Bantuan</a>
+
+        <a href="https://wa.me/6285179596005">
+            WhatsApp
+        </a>
+
+    </div>
+
+</div>
 <div class="pn-container">
     <div class="pn-hero">
         <img src="https://i.imgur.com/Tn00l9U.png" alt="Logo" class="pn-logo">
