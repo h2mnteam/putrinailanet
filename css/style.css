@@ -17,8 +17,11 @@ body{
     width:100%;
     overflow-x:hidden;
     font-family:Arial, Helvetica, sans-serif;
-    background:#f5f9fc;
-}
+    background:linear-gradient(
+180deg,
+#ffffff,
+#edf5fb
+);
 
 /* =======================================
    PutriNaila.Net
