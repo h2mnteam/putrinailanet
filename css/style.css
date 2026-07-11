@@ -76,15 +76,6 @@ header{
 }
 
 .hero-logo{
-    width:130px;
-    height:130px;
-
-    border-radius:50%;
-    object-fit:cover;
-
-    margin-bottom:25px;
-
-    .hero-logo{
 
     width:150px;
     height:150px;
