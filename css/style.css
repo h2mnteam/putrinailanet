@@ -406,15 +406,24 @@ background:#f3f4f6;
 
     display:none;
 
-    background:none;
+    width:48px;
+    height:48px;
+
+    background:#ffffff;
 
     border:none;
+
+    border-radius:12px;
 
     font-size:2rem;
 
     cursor:pointer;
 
     color:#0f4c81;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.10);
+
+    transition:.3s;
 
 }
 
