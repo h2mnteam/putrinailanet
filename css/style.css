@@ -961,9 +961,10 @@ margin-bottom:25px;
 }
 
 .payment-card h2{
+    font-size:2rem;
+    white-space:nowrap;
 
-    color:#0f4c81;
-    margin-bottom:15px;
+}
 
 }
 
