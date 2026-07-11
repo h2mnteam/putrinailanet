@@ -1,3 +1,25 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+}
+
 /* =======================================
    PutriNaila.Net
    Style CSS
@@ -311,4 +333,108 @@ header{
 
     background:#14995a;
 
+}
+
+/* ===========================
+   RESPONSIVE MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+    /* Navbar */
+
+    .navbar{
+        padding:12px 16px;
+    }
+
+    .brand{
+        gap:10px;
+    }
+
+    .brand img{
+        width:45px;
+        height:45px;
+    }
+
+    .brand span{
+        font-size:1.6rem;
+    }
+
+    /* Sembunyikan menu desktop */
+
+    .menu{
+        display:none;
+    }
+
+    /* Hero */
+
+    .hero{
+
+        margin:20px 15px;
+
+        padding:50px 20px;
+
+        border-radius:20px;
+
+    }
+
+    .hero-logo{
+
+        width:140px;
+
+        height:140px;
+
+    }
+
+    .hero h1{
+
+        font-size:2rem;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+        line-height:1.7;
+
+    }
+
+    .hero-button{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .hero-button a{
+
+        width:220px;
+
+        text-align:center;
+
+    }
+
+    /* Paket */
+
+    .paket{
+
+        padding:60px 20px;
+
+    }
+
+    .paket h2{
+
+        font-size:2rem;
+
+    }
+
+    .paket-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
 }
