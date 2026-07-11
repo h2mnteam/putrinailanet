@@ -442,15 +442,13 @@ background:#f3f4f6;
 
     flex-direction:column;
 
-    align-items:center;
-
 }
 
 .hero-buttons a{
 
-    width:260px;
+    width:85%;
 
-}
+    max-width:320px;
 
 }
 
@@ -529,14 +527,13 @@ background:#f3f4f6;
 
     }
 
-    .hero-button a{
+    .hero-buttons a{
 
-        width:220px;
+    width:240px;
 
-        text-align:center;
+    text-align:center;
 
     }
-
     /* Paket */
 
     .paket{
