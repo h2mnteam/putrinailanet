@@ -900,3 +900,19 @@ margin-bottom:15px;
 margin-bottom:25px;
 
 }
+
+.payment-card ul{
+
+    text-align:left;
+    margin-top:15px;
+    padding-left:20px;
+
+}
+
+.payment-card li{
+
+    margin:10px 0;
+    color:#555;
+    line-height:1.6;
+
+}
