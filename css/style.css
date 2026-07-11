@@ -823,10 +823,80 @@ transition:max-height .4s ease;
 
 .faq-answer p{
 
-padding:0 20px 20px;
+    padding:0 20px 20px;
 
-line-height:1.8;
+    line-height:1.8;
 
-color:#555;
+    color:#555;
+
+}
+
+/* Panah FAQ */
+
+.faq-question::after{
+
+    content:"+";
+
+    float:right;
+
+    transition:.3s;
+
+}
+
+.faq-question.active::after{
+
+    content:"-";
+
+}
+
+#faqSearch{
+
+width:100%;
+
+padding:15px 18px;
+
+border-radius:30px;
+
+border:2px solid #dbeafe;
+
+margin:25px 0 35px;
+
+font-size:1rem;
+
+outline:none;
+
+}
+
+#faqSearch:focus{
+
+border-color:#1e88e5;
+
+}
+
+.help-box{
+
+margin-top:50px;
+
+padding:40px;
+
+text-align:center;
+
+background:#0f4c81;
+
+border-radius:20px;
+
+color:white;
+
+}
+
+.help-box h2{
+
+margin-bottom:15px;
+
+}
+
+.help-box p{
+
+margin-bottom:25px;
 
 }
