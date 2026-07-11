@@ -156,6 +156,28 @@ answer.style.maxHeight=answer.scrollHeight+"px";
 
 });
 
+  const search = document.getElementById("faqSearch");
+
+if (search) {
+
+    search.addEventListener("keyup", () => {
+
+        const value = search.value.toLowerCase();
+
+        document.querySelectorAll(".faq-item").forEach(item => {
+
+            item.style.display = item.innerText
+                .toLowerCase()
+                .includes(value)
+                ? "block"
+                : "none";
+
+        });
+
+    });
+
+}
+
 </script>
 
 </body>
