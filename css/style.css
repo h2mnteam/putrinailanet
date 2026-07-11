@@ -108,6 +108,23 @@ header{
     margin-bottom:25px;
 
     box-shadow:0 0 25px rgba(255,255,255,.35);
+   
+    animation: floatLogo 3s ease-in-out infinite;
+}
+
+@keyframes floatLogo{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-6px);
+}
+
+100%{
+transform:translateY(0);
+}
 
 }
 
