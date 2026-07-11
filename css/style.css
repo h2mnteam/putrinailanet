@@ -546,11 +546,13 @@ background:#f3f4f6;
 
 .footer{
 
+    border-top:2px solid rgba(255,255,255,.08);
+
     background:#0f4c81;
 
     color:white;
 
-    margin-top:30px;
+    margin-top:20px;
 
 }
 
