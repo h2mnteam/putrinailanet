@@ -2,12 +2,6 @@
    RESET
 =========================== */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 html{
     scroll-behavior:smooth;
 }
@@ -41,6 +35,14 @@ body{
 #ffffff,
 #edf5fb
 );
+
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
 
 /* ===========================
    NAVBAR
@@ -177,11 +179,16 @@ transform:translateY(0);
 }
 
 .hero-button a:hover{
-
 transform:translateY(-3px);
-
 box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
 
+.btn-primary:hover{
+background:#16a34a;
+}
+
+.btn-secondary:hover{
+background:#f3f4f6;
 }
 
 .hero-button a:active{
@@ -197,25 +204,11 @@ box-shadow:0 8px 20px rgba(0,0,0,.2);
     color:white;
 }
 
-.btn-primary:hover{
-
-    background:#16a34a;
-
-    transform:translateY(-3px);
-}
-
 .btn-secondary{
 
     background:white;
 
     color:#0f4c81;
-}
-
-.btn-secondary:hover{
-
-    background:#f3f4f6;
-
-    transform:translateY(-3px);
 }
 
 .brand{
@@ -390,7 +383,7 @@ box-shadow:0 8px 20px rgba(0,0,0,.2);
     .brand span{
         font-size:1.6rem;
     }
-
+   
     /* Sembunyikan menu desktop */
 
     .menu{
