@@ -208,3 +208,108 @@ header{
     color:#1ecb72;
 
 }
+
+/* =========================
+   PAKET
+========================= */
+
+.paket{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.paket h2{
+    font-size:2rem;
+    color:#0f4c81;
+    margin-bottom:50px;
+}
+
+.paket-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.paket-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.paket-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.paket-card img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+.paket-card h3{
+
+    margin-top:20px;
+
+    color:#0f4c81;
+
+}
+
+.harga{
+
+    font-size:1.6rem;
+
+    color:#19b86b;
+
+    font-weight:bold;
+
+    margin:15px 0;
+
+}
+
+.paket-card p{
+
+    padding:0 20px;
+
+    color:#555;
+
+}
+
+.btn-paket{
+
+    display:inline-block;
+
+    margin:25px 0 30px;
+
+    padding:14px 35px;
+
+    background:#19b86b;
+
+    color:white;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.btn-paket:hover{
+
+    background:#14995a;
+
+}
