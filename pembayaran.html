@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+
+  <head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Pembayaran | PutriNaila.Net</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+  </head>
+
+  <body>
+
+<header>
+
+<nav class="navbar">
+
+<a href="index.html" class="brand">
+
+<img src="images/putrinailanet_logo.png" alt="Logo">
+
+<span>PutriNaila.Net</span>
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="payment">
+
+<h1>Pembayaran</h1>
+
+<p>
+
+Silakan pilih metode pembayaran yang paling mudah bagi Anda.
+
+</p>
+
+  <div class="payment-card">
+
+<h2>📱 GoPay</h2>
+
+<p id="gopay">
+
+0851-7959-6005
+
+</p>
+
+<button class="copy-btn">
+
+Salin Nomor GoPay
+
+</button>
+
+  </div>
+
+  <div class="payment-card">
+
+<h2>💠 QRIS</h2>
+
+<img
+src="images/qris.png"
+alt="QRIS Pembayaran"
+class="qris">
+
+  </div>
+
+  <div class="payment-card">
+
+<h2>✅ Sudah Membayar?</h2>
+
+<p>
+
+Silakan kirim bukti pembayaran melalui WhatsApp.
+
+</p>
+
+<a
+
+href="https://wa.me/6285179596005"
+
+target="_blank"
+
+rel="noopener noreferrer"
+
+class="btn-primary">
+
+Konfirmasi Pembayaran
+
+</a>
+
+  </div>
+
+</section>
+
+  <script>
+
+document.querySelectorAll(".copy-btn").forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+navigator.clipboard.writeText(
+
+btn.previousElementSibling.innerText
+
+);
+
+btn.innerText="✔ Berhasil Disalin";
+
+});
+
+});
+
+</script>
+
+  </body>
+
+</html>
