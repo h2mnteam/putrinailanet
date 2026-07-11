@@ -641,41 +641,33 @@ background:#f3f4f6;
 }
 
 .footer-info{
+/* ===========================
+   FOOTER INFO
+=========================== */
 
-    display:flex;
+.footer-info{
 
-    flex-wrap:wrap;
+    background:#0c3c66;
 
-    justify-content:center;
+    padding:25px 20px;
 
-    align-items:center;
+    text-align:center;
 
-    gap:10px;
-
-    padding:18px 15px;
-
-}
-
-.footer-info span{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    padding:8px 14px;
-
-    border-radius:25px;
-
-    background:rgba(255,255,255,.12);
-
-    font-size:.9rem;
-
-    white-space:nowrap;
+    border-top:1px solid rgba(255,255,255,.08);
 
 }
 
+.footer-info p{
+
+    margin:10px 0;
+
+    font-size:1rem;
+
+    color:#ffffff;
+
+    letter-spacing:.3px;
+
+}
 .footer-bottom{
 
     text-align:center;
