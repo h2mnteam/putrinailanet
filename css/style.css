@@ -916,3 +916,103 @@ margin-bottom:25px;
     line-height:1.6;
 
 }
+
+
+/* ===========================
+   HALAMAN PEMBAYARAN
+=========================== */
+
+.payment{
+
+    max-width:900px;
+    margin:50px auto;
+    padding:20px;
+
+}
+
+.payment h1{
+
+    text-align:center;
+    color:#0f4c81;
+    font-size:2.2rem;
+    margin-bottom:10px;
+
+}
+
+.payment>p{
+
+    text-align:center;
+    color:#666;
+    margin-bottom:35px;
+
+}
+
+.payment-card{
+
+    background:#fff;
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    text-align:center;
+
+}
+
+.payment-card h2{
+
+    color:#0f4c81;
+    margin-bottom:15px;
+
+}
+
+.payment-card p{
+
+    margin:10px 0;
+
+}
+
+.qris{
+
+    width:220px;
+    max-width:100%;
+    display:block;
+    margin:20px auto;
+
+}
+
+.copy-btn{
+
+    background:#22c55e;
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    margin-top:15px;
+
+}
+
+.copy-btn:hover{
+
+    background:#1ca64f;
+
+}
+
+.payment-card ul{
+
+    text-align:left;
+
+    max-width:400px;
+
+    margin:20px auto;
+
+    line-height:1.8;
+
+}
