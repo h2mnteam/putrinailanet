@@ -422,20 +422,6 @@ background:#f3f4f6;
    RESPONSIVE MOBILE
 =========================== */
 
-/* Hamburger */
-
-.menu-toggle{
-
-    display:block;
-
-}
-
-.nav-menu{
-
-    display:none;
-
-}
-
 @media(max-width:768px){
 
 /* Navbar */
@@ -457,12 +443,17 @@ background:#f3f4f6;
         font-size:1.6rem;
     }
    
-    /* Sembunyikan menu desktop */
+    /* Tampilkan tombol hamburger */
 
-    .menu{
-        display:none;
-    }
+.menu-toggle{
+    display:block;
+}
 
+/* Sembunyikan menu navigasi */
+
+.nav-menu{
+    display:none;
+}
     /* Hero */
 
     .hero{
