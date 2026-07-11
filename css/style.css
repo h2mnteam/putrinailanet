@@ -951,7 +951,7 @@ margin-bottom:25px;
 
     background:#fff;
     border-radius:20px;
-    padding:25px;
+    padding:35px 30px;
     margin-bottom:25px;
 
     box-shadow:0 10px 30px rgba(0,0,0,.08);
@@ -970,6 +970,12 @@ margin-bottom:25px;
 .payment-card p{
 
     margin:10px 0;
+
+}
+
+.payment-card:last-child{
+
+    padding:35px;
 
 }
 
