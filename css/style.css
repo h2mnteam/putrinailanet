@@ -644,27 +644,35 @@ background:#f3f4f6;
 
     display:flex;
 
-    justify-content:center;
-
     flex-wrap:wrap;
 
-    gap:15px;
+    justify-content:center;
 
-    padding:20px;
+    align-items:center;
 
-    background:#0c3c66;
+    gap:10px;
 
-    font-size:.95rem;
+    padding:18px 15px;
 
 }
 
 .footer-info span{
 
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:8px 14px;
+
+    border-radius:25px;
+
     background:rgba(255,255,255,.12);
 
-    padding:8px 15px;
+    font-size:.9rem;
 
-    border-radius:30px;
+    white-space:nowrap;
 
 }
 
