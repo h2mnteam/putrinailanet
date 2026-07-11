@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bantuan | PutriNaila.Net</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<a href="index.html" class="brand">
+
+<img src="images/putrinailanet_logo.png" alt="Logo">
+
+<span>PutriNaila.Net</span>
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="faq">
+
+<h1>Pusat Bantuan</h1>
+
+<p>
+Temukan jawaban atas pertanyaan yang sering diajukan pelanggan.
+</p>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Bagaimana cara mendaftar?
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+Klik tombol <strong>Daftar</strong> atau hubungi WhatsApp kami.
+Tim kami akan membantu proses pemasangan.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Apakah internet unlimited?
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+Ya.
+Semua paket PutriNaila.Net menggunakan internet Unlimited tanpa batas kuota.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Apakah ada biaya pemasangan?
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+Biaya pemasangan menyesuaikan lokasi pelanggan.
+Silakan hubungi admin untuk informasi lengkap.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Jika internet mengalami gangguan?
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+Silakan hubungi WhatsApp Support atau ikuti Channel Informasi Layanan
+untuk mendapatkan informasi gangguan jaringan.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<script>
+
+const faq=document.querySelectorAll(".faq-question");
+
+faq.forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+btn.classList.toggle("active");
+
+const answer=btn.nextElementSibling;
+
+if(answer.style.maxHeight){
+
+answer.style.maxHeight=null;
+
+}else{
+
+answer.style.maxHeight=answer.scrollHeight+"px";
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+
+  </html>
