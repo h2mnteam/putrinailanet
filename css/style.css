@@ -427,6 +427,18 @@ background:#f3f4f6;
 
 }
 
+.menu-toggle:hover{
+
+    background:#f5f7fa;
+
+}
+
+.menu-toggle:active{
+
+    transform:scale(.95);
+
+}
+
 /* ===========================
    RESPONSIVE MOBILE
 =========================== */
