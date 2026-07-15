@@ -1374,6 +1374,26 @@ margin-bottom:25px;
 
 }
 
+.download-qris-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.download-qris-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
 /* ===========================
    AREA CAKUPAN
 =========================== */
