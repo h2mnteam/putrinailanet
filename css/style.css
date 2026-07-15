@@ -869,9 +869,9 @@ background:#f3f4f6;
 
 }
 
-/* ===========================
+/* ==========================
    CTA Logo
-=========================== */
+========================== */
 
 .cta-logo-wrapper{
 
@@ -879,30 +879,27 @@ background:#f3f4f6;
     justify-content:center;
     align-items:center;
 
-    margin-bottom:22px;
+    margin:0 auto 18px;
 
 }
 
 .cta-logo{
 
-    width:96px;
-    height:96px;
+    width:100px;
+    height:100px;
 
-    object-fit:contain;
-    object-position:center;
+    display:block;
+
+    object-fit:cover;
 
     border-radius:50%;
 
-    /* Tidak memakai background putih lagi */
-    background:transparent;
+    box-shadow:
+        0 0 18px rgba(255,255,255,.28);
 
-    /* Tidak memakai padding */
-    padding:0;
+    animation:ctaFloat 3.5s ease-in-out infinite;
 
-    /* Glow lembut seperti Hero */
-    filter:
-        drop-shadow(0 0 10px rgba(135,255,255,.35))
-        drop-shadow(0 0 20px rgba(135,255,255,.20));
+    transition:.3s;
 
 }
 
