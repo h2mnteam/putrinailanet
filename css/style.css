@@ -872,25 +872,28 @@ background:#f3f4f6;
 
 /* Logo berada di tengah */
 .cta-logo-wrapper{
-    display:flex;
-    justify-content:center;
-    margin-bottom:20px;
-}
+    width:90px;
+    height:90px;
 
-.cta-logo{
-
-    width:82px;
-    height:82px;
-
-    object-fit:cover;
+    margin:0 auto 20px;
 
     border-radius:50%;
 
     background:#fff;
 
-    padding:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
     box-shadow:0 5px 18px rgba(0,0,0,.18);
+}
+
+.cta-logo{
+
+    width:90%;
+    height:90%;
+
+    object-fit:contain;
 }
 
 .cta-card h2{
