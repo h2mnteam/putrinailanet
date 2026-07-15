@@ -870,6 +870,12 @@ background:#f3f4f6;
 
 }
 
+.cta-logo-wrapper{
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
 .cta-logo{
 
     width:78px;
