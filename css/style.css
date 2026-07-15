@@ -870,7 +870,6 @@ background:#f3f4f6;
 
 }
 
-/* Logo berada di tengah */
 .cta-logo-wrapper{
     display:flex;
     justify-content:center;
@@ -882,15 +881,16 @@ background:#f3f4f6;
     width:82px;
     height:82px;
 
-    object-fit:cover;
-
     border-radius:50%;
 
     background:#fff;
 
     padding:6px;
 
-    box-shadow:0 5px 18px rgba(0,0,0,.18);
+    box-shadow:
+        0 0 12px rgba(255,255,255,.35),
+        0 5px 18px rgba(0,0,0,.18);
+
 }
 
 .cta-card h2{
