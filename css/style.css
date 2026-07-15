@@ -1541,6 +1541,7 @@ margin-bottom:25px;
 .coverage-title {
     display: flex;
     align-items: center;
+    justify-content: center; /* Hapus jika ingin rata kiri */
     gap: 8px;
     margin-bottom: 15px;
 }
@@ -1548,4 +1549,4 @@ margin-bottom:25px;
 .coverage-icon {
     font-size: 1.2rem;
     line-height: 1;
-}
+   }
