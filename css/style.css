@@ -871,27 +871,27 @@ background:#f3f4f6;
 }
 
 /* Logo berada di tengah */
-‎.cta-logo-wrapper{
-‎    display:flex;
-‎    justify-content:center;
-‎    margin-bottom:20px;
-‎}
-‎
-‎.cta-logo{
-‎
-‎    width:82px;
-‎    height:82px;
-‎
-‎    object-fit:cover;
-‎
-‎    border-radius:50%;
-‎
-‎    background:#fff;
-‎
-‎    padding:6px;
-‎
-‎    box-shadow:0 5px 18px rgba(0,0,0,.18);
-‎}
+.cta-logo-wrapper{
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.cta-logo{
+
+    width:82px;
+    height:82px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    padding:6px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.18);
+}
 
 .cta-card h2{
 
