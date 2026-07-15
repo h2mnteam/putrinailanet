@@ -949,14 +949,6 @@ background:#f3f4f6;
 
 }
 
-@media (max-width:768px){
-
-.cta-section{
-
-    padding:45px 18px;
-
-}
-
 .cta-card{
 
     padding:32px 22px;
@@ -992,7 +984,17 @@ background:#f3f4f6;
 
 }
 
+@media (max-width:768px){
+
+.cta-logo{
+
+    width:72px;
+    height:72px;
+
 }
+
+}
+
 
 /* ===========================
    FOOTER
