@@ -1540,8 +1540,6 @@ margin-bottom:25px;
 
 .coverage-title {
     display: flex;
-    align-items: center;
-    justify-content: center; /* Hapus jika ingin rata kiri */
     gap: 8px;
     margin-bottom: 15px;
 }
