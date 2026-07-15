@@ -855,7 +855,6 @@ background:#f3f4f6;
 .cta-card{
 
     max-width:700px;
-
     margin:auto;
 
     padding:38px 28px;
@@ -870,28 +869,39 @@ background:#f3f4f6;
 
 }
 
+/* Logo */
+
 .cta-logo-wrapper{
+
     display:flex;
     justify-content:center;
+    align-items:center;
+
     margin-bottom:20px;
+
 }
 
 .cta-logo{
 
-    width:82px;
-    height:82px;
+    width:90px;
+    height:90px;
+
+    object-fit:contain;
+    object-position:center;
 
     border-radius:50%;
 
     background:#fff;
 
-    padding:6px;
+    padding:2px;
 
     box-shadow:
         0 0 12px rgba(255,255,255,.35),
         0 5px 18px rgba(0,0,0,.18);
 
 }
+
+/* Judul */
 
 .cta-card h2{
 
@@ -904,6 +914,8 @@ background:#f3f4f6;
     font-weight:700;
 
 }
+
+/* Deskripsi */
 
 .cta-card p{
 
@@ -918,6 +930,8 @@ background:#f3f4f6;
     margin:0 auto 28px;
 
 }
+
+/* Tombol */
 
 .btn-cta{
 
@@ -949,49 +963,51 @@ background:#f3f4f6;
 
 }
 
-.cta-card{
-
-    padding:32px 22px;
-
-}
-
-.cta-logo{
-
-    width:68px;
-    height:68px;
-
-}
-
-.cta-card h2{
-
-    font-size:24px;
-
-}
-
-.cta-card p{
-
-    font-size:15px;
-
-    line-height:1.7;
-
-}
-
-.btn-cta{
-
-    width:100%;
-
-    max-width:250px;
-
-}
+/* ===================================================
+   RESPONSIVE
+=================================================== */
 
 @media (max-width:768px){
 
-.cta-logo{
+    .cta-section{
 
-    width:72px;
-    height:72px;
+        padding:45px 18px;
 
-}
+    }
+
+    .cta-card{
+
+        padding:32px 22px;
+
+    }
+
+    .cta-logo{
+
+        width:72px;
+        height:72px;
+
+    }
+
+    .cta-card h2{
+
+        font-size:24px;
+
+    }
+
+    .cta-card p{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+    .btn-cta{
+
+        width:100%;
+        max-width:250px;
+
+    }
 
 }
 
